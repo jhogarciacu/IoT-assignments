@@ -4,11 +4,8 @@
 This project demonstrates how to connect an ESP32 device to a cloud server using WiFi and MQTT.
 The objective is to establish a reliable IoT communication pipeline where the ESP32 publishes sensor data to an AWS-hosted MQTT broker and receives cloud-issued commands to change the color of an onboard or external RGB LED.
 
-### 2. Requirements 
--  ESP32-C6
--  WiFi network
--  MQTT broker running on AWS (EC2, AWS IoT Core, or custom server)
--  MQTT client library for ESP32 (ESP-IDF or Arduino PubSubClient)
+### 2. ESP-IDF Installation
+Make sure to follow the installations steps of the [Instalar ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/linux-macos-setup.html) and in the step 3 install the tools for the esp32c6
 
 ### 3. Project setup guide
 This section provides a quick and professional guide to set up the project, including firmware configuration, MQTT server preparation, and LED control testing.
